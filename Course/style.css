@@ -41,26 +41,49 @@ body{
 .top-nav .menu-path .button:hover{
     background-color: #2c3e50;
 }
-.main-blog{
-    min-height: 1000px;
+.main-course{
+    min-height: 1300px;
 }
-.main-blog .blog-left{
-    width: 60%;
+.main-course .course-left{
     min-height: 400px;
-    background-color: white;
+    width: 30%;
     float: left;
+    border-right: 1px solid cyan;
 }
-.main-blog .blog-left ul li h3{
-    color: blueviolet;
+.main-course .course-left h4{
+    background-color: #2c3e50;
+    padding: 10px 0px;
+    text-align: center;
+    color: white;
 }
-.main-blog .blog-right{
-    width: 40%;
+.main-course .course-left ul li{
+    list-style: none;
+}
+.main-course .course-left ul{
+    border: 1px solid chocolate;
+}
+.main-course .course-left img{
+    border: 1px solid black;
+    width: 80%;
+    margin-left: 40px;
+}
+.main-course .course-right{
     min-height: 400px;
-    float: left;
+    width: 65%;
+    float: right;
 }
-.main-blog .blog-right img{
-    width: 50%;
-    padding-left: 30%;
+.main-course .course-right ul li{
+    list-style: none;
+    clear: left;
+    padding-top: 40px;
+}
+.main-course .course-right ul{
+    border-bottom: 1px solid burlywood;
+    padding-bottom: 170px;
+}
+.main-course .course-right ul li img{
+    float: left;
+    margin-right: 10px;
 }
 .footer{
     min-height: 300px;
